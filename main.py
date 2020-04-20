@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import rpg_dice
 
-app = FastAPI()
+app = FastAPI(docs_url="/")
 
 
 @app.get("/roll")
