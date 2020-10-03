@@ -16,7 +16,6 @@ deploy:
   bucket: "elasticbeanstalk-us-east-2-304614639558"
   bucket_path: "rpg-dice-api"
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"
   on:
     tags: true
