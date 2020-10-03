@@ -5,6 +5,9 @@ sudo: required
 services:
   - docker
 
+script:
+  - pytest
+
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
